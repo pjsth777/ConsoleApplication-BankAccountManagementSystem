@@ -1,0 +1,15 @@
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.csproj.AssemblyReference.cache
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.GeneratedMSBuildEditorConfig.editorconfig
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.AssemblyInfoInputs.cache
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.AssemblyInfo.cs
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.csproj.CoreCompileInputs.cache
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\bin\Debug\net6.0\Bank Account Management System.exe
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\bin\Debug\net6.0\Bank Account Management System.deps.json
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\bin\Debug\net6.0\Bank Account Management System.runtimeconfig.json
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\bin\Debug\net6.0\Bank Account Management System.dll
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\bin\Debug\net6.0\Bank Account Management System.pdb
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.dll
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\refint\Bank Account Management System.dll
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.pdb
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\Bank Account Management System.genruntimeconfig.cache
+E:\NewDotnetProjects\Console Applications\Bank Account Management System\Bank Account Management System\obj\Debug\net6.0\ref\Bank Account Management System.dll

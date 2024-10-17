@@ -1,0 +1,11 @@
+
+
+Focuses on:
+
+
+1) Classes and Object-Oriented Programming (OOP): Managing bank accounts through classes.
+2) Encapsulation: Protecting the account data using properties
+3) Inheritance: Supporting different types of accounts (e.g. Saving Accounts, Checking Account)
+4) Transaction Management: Implementing deposit and withdrawal functionality.
+5) Exception Handling: Handling erros, such as insufficient funds
+6) File I/O: Storing account data to a file for persistence
