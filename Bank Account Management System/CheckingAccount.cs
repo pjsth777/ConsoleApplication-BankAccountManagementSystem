@@ -8,30 +8,29 @@ namespace Bank_Account_Management_System
 {
     public class CheckingAccount : BankAccount
     {
-        private decimal overdraftlimit;
+        public decimal OverDraftLimit { get; private set; }
+
+        // -------------------------------------------------------------------------------------------------------
 
         public CheckingAccount(int accountNumber, string owner, decimal overdraftlimit) : base(accountNumber, owner)
         {
-            this.overdraftlimit = overdraftlimit;
+            OverDraftLimit = overdraftlimit;
         }
+
+        // -------------------------------------------------------------------------------------------------------
 
         public override void Withdraw(decimal amount)
         {
-            if (amount > 0 && Balance + overdraftlimit >= amount)
+            if (amount <= 0 || amount > Balance + OverDraftLimit)
             {
-                Balance -= amount;
-                Console.WriteLine($"Withdrew: {amount:C} from account {AccountNumber}. Overdraft used: {Math.Max(0, -Balance):C}");
+                Console.WriteLine("Invalid withdrawal amount or exceeds overdraft limit.");
+                return;
             }
-            else
-            {
-                Console.WriteLine("Insufficient balance or overdraft limit reached.");
-            }
+            Balance -= amount;
+            Console.WriteLine($"Withdrawal: {amount}");
         }
 
-        public override string ToString()
-        {
-            return base.ToString() + $" (Checking Account, Overdraft Limit: {overdraftlimit:C})";
-        }
+        // -------------------------------------------------------------------------------------------------------
     }
 }
 

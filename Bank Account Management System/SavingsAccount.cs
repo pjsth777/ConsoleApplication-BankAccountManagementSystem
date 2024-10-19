@@ -8,23 +8,25 @@ namespace Bank_Account_Management_System
 {
     public class SavingsAccount : BankAccount
     {
-        private decimal interestRate;
+        public decimal InterestRate { get; private set; }
+
+        // -------------------------------------------------------------------------------------------------------
 
         public SavingsAccount(int accountNumber, string owner, decimal interestRate) : base(accountNumber, owner)
         {
-            this.interestRate = interestRate;
+            InterestRate = interestRate;
         }
+
+        // -------------------------------------------------------------------------------------------------------
 
         public void ApplyInterest()
         {
-            decimal interest = Balance * interestRate / 100;
+            decimal interest = Balance * InterestRate / 100;
             Deposit(interest);
-            Console.WriteLine($"Applied {interestRate}% interest. New balance: {Balance:C}");
+            Console.WriteLine($"Interest applied: {interest:C}");
         }
 
-        public override string ToString()
-        {
-            return base.ToString() + $" (Savings Account, Interest Rate: {interestRate}%)";
-        }
+        // -------------------------------------------------------------------------------------------------------
+
     }
 }
